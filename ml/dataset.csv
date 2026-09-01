@@ -3,3 +3,11 @@ age,gender,primary_complaint,problem,diagnosis,investigation,surgery_name,surger
 62,Female,knee pain,osteoarthritis,knee osteoarthritis,xray,total knee replacement,Elective,Spinal,diabetes,standard
 30,Male,acute pain,appendicitis,acute appendicitis,ultrasound,appendectomy,Emergency,General,none,standard
 55,Female,abdominal pain,hernia,inguinal hernia,ultrasound,hernia repair,Elective,General,hypertension,standard
+38,Male,abdominal pain,gallstone,cholelithiasis,ultrasound,laparoscopic cholecystectomy,Elective,General,none,standard
+70,Female,knee pain,osteoarthritis,knee osteoarthritis,xray,total knee replacement,Elective,Spinal,hypertension,standard
+24,Male,acute abdominal pain,appendicitis,acute appendicitis,ultrasound,appendectomy,Emergency,General,none,standard
+50,Female,groin swelling,hernia,inguinal hernia,ultrasound,hernia repair,Elective,General,none,standard
+46,Male,abdominal pain,gallstone,cholelithiasis,ultrasound,laparoscopic cholecystectomy,Elective,General,diabetes,standard
+65,Female,knee pain,osteoarthritis,knee osteoarthritis,xray,total knee replacement,Elective,Spinal,diabetes,standard
+28,Male,acute pain,appendicitis,acute appendicitis,ultrasound,appendectomy,Emergency,General,none,standard
+58,Female,groin swelling,hernia,inguinal hernia,ultrasound,hernia repair,Elective,General,hypertension,standard

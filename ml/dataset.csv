@@ -1,0 +1,5 @@
+age,gender,primary_complaint,problem,diagnosis,investigation,surgery_name,surgery_type,anaesthesia,medical_history,target
+45,Male,abdominal pain,gallstone,cholelithiasis,ultrasound,laparoscopic cholecystectomy,Elective,General,none,standard
+62,Female,knee pain,osteoarthritis,knee osteoarthritis,xray,total knee replacement,Elective,Spinal,diabetes,standard
+30,Male,acute pain,appendicitis,acute appendicitis,ultrasound,appendectomy,Emergency,General,none,standard
+55,Female,abdominal pain,hernia,inguinal hernia,ultrasound,hernia repair,Elective,General,hypertension,standard

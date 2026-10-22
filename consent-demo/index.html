@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="NALAM Hospital Surgery Consent Assistant demo interface"><title>NALAM Hospital | Surgery Consent Assistant Demo</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="page">
+<header class="hero"><div class="brand-mark" aria-hidden="true">N</div><div><p class="eyebrow">NALAM HOSPITAL · MULTI SPECIALITY &amp; DIABETES HOSPITAL</p><h1>Surgery Consent Assistant</h1><p class="subtitle">Search demo reference records, review them, and apply selected text to the draft form.</p></div></header>
+<div class="warning" role="alert"><strong>DEMO MODE ONLY</strong><span>Example records only. Not for real patient care. No data is sent to a server and this page does not sign or submit consent forms.</span></div>
+<section class="panel"><div class="section-heading"><span class="step">01</span><div><h2>Choose reference records</h2><p>Search and select a demo entry in each category.</p></div></div>
+<div class="fields">
+<label>Medical History<input id="history-search" type="search" placeholder="Search medical history..." autocomplete="off"><select id="history-select"><option value="">Choose demo record</option></select></label>
+<label>Diagnosis<input id="diagnosis-search" type="search" placeholder="Search diagnosis..." autocomplete="off"><select id="diagnosis-select"><option value="">Choose demo record</option></select></label>
+<label>Surgery / Procedure<input id="surgery-search" type="search" placeholder="Search procedure..." autocomplete="off"><select id="surgery-select"><option value="">Choose demo record</option></select></label>
+</div></section>
+<section class="panel"><div class="section-heading"><span class="step">02</span><div><h2>Selected record preview</h2><p>Review the example details before applying.</p></div></div><div id="preview" class="preview empty" aria-live="polite">Choose one or more records above to see the preview.</div></section>
+<section class="panel"><div class="section-heading"><span class="step">03</span><div><h2>Draft consent form fields</h2><p>Applying records only fills these editable demo fields.</p></div></div>
+<div class="fields">
+<label>Medical History<textarea id="form-history" rows="3" placeholder="Medical history draft"></textarea></label>
+<label>Diagnosis<textarea id="form-diagnosis" rows="3" placeholder="Diagnosis draft"></textarea></label>
+<label>Surgery / Procedure<textarea id="form-surgery" rows="3" placeholder="Procedure draft"></textarea></label>
+<label>Procedure Description<textarea id="form-description" rows="3" placeholder="Clinician-approved description must be added here"></textarea></label>
+<label>Risks<textarea id="form-risks" rows="3" placeholder="Clinician-approved risks must be added here"></textarea></label>
+<label>Preparation<textarea id="form-preparation" rows="3" placeholder="Clinician-approved preparation instructions"></textarea></label>
+<label>Aftercare<textarea id="form-aftercare" rows="3" placeholder="Clinician-approved aftercare instructions"></textarea></label>
+</div><div class="actions"><button id="apply-btn" type="button">Auto Apply to Draft</button><button id="clear-btn" type="button" class="secondary">Clear selections</button></div><p id="status" class="status" role="status" aria-live="polite"></p></section>
+<footer>Demo interface · No patient records are stored or transmitted · A qualified clinician must verify all clinical content. This tool does not provide medical advice, sign, or submit consent forms.</footer>
+</main><script src="app.js"></script></body></html>
